@@ -1,0 +1,99 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 1rem 3rem;
+    background-color: var(--black);
+    justify-content: space-between;
+    color: var(--white);
+    position: fixed;
+}
+.logo{
+    font-weight: bold;
+}
+.navbar ul{
+    display: inline-flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 2rem;
+    
+}
+.navbar ul li .link{
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--white);
+}
+.navbar ul li .link:hover{
+    border-bottom: 1px solid wheat;
+}
+.ham{
+    display: none;
+}
+.open{
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    .navbar{
+        padding: 1rem 2rem;
+    }
+    .navbar ul{
+        gap: .7rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 1rem;
+    }
+    .log_con{
+        display: flex;
+        justify-content: space-between;
+    }
+    .ham{
+        display: inline-block;
+    }
+    .navbar ul.is-open{
+        
+    border-top: .01rem solid var(--white) ;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+    margin-left: 0rem;
+    gap: 1rem;
+   
+}
+
+.navbar ul li{
+    margin-top: 1rem;
+}
+.navbar ul{
+    display: none;
+}
+.ul{
+    display: block;
+    border-top: 3.35rem solid white;
+    width: 40%; 
+}
+.ul ul{
+    display: flex;
+    flex-direction: column;
+    
+    background-color: var(--black);
+    padding: 1rem 1rem 1rem;
+    
+    list-style: none;
+    gap: 2rem;
+}
+
+.ul li .link{
+    text-decoration: none;
+    color: var(--white);
+}
+ .open{
+    display: none;
+} 
+}
