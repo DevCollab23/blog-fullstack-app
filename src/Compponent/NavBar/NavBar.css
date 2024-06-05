@@ -1,3 +1,7 @@
+.nav_container{
+    position: fixed;
+    z-index: 1000;
+}
 .navbar{
     display: flex;
     flex-direction: row;
@@ -7,6 +11,7 @@
     justify-content: space-between;
     color: var(--white);
     position: fixed;
+    /* z-index: 1; */
 }
 .logo{
     font-weight: bold;
@@ -60,7 +65,7 @@
     border-top: .01rem solid var(--white) ;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    /* width: 100%; */
     margin-top: 1rem;
     margin-left: 0rem;
     gap: 1rem;
@@ -76,7 +81,7 @@
 .ul{
     display: block;
     border-top: 3.35rem solid white;
-    width: 40%; 
+    width: 100%; 
 }
 .ul ul{
     display: flex;

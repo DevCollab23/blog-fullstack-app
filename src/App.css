@@ -8,8 +8,10 @@
   --black: #232536;
   --white: #FFFFFF;
   --gray: #333333;
+  --yellow:  #FFD050;
+
 
 }
 .con{
-  padding:3rem 3rem;
+  padding:3rem 0rem;
 }
