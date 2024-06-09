@@ -1,14 +1,18 @@
-import React from 'react'
 import '../Home/Home.css'
 import AllPost from './AllPost'
+import Authors from './Authors'
 
-function Home() {
+
+const Home =()=> {
+      
+    
+
   return (
     <div className='Home_container'>
       <section className='Home_hero_container'>
 
           <div className='home_hero_image'>
-            <img src="./Images\Home-img\Blog-home-img.png" alt=""  />
+            <img src="./Images\Blog-home-img.png" alt=""  />
           </div>
 
           <div className="home_hero_text_container">
@@ -32,7 +36,7 @@ function Home() {
         <div className="featured_post_container">
           <h1>Featured Post</h1>
           <div className="featured_img">
-            <img src="./Images\Home-img\blog-home-img2.png" alt="" />
+            <img src="./Images\blog-home-img2.png" alt="" />
           </div>
           <small>By <span> John Doe</span>  | May 23 2022</small>
           <div className='featured_post_text'>
@@ -139,7 +143,7 @@ function Home() {
 
       <section className='home_section_five'>
         <div className="section_five_img_cont">
-          <img src="./Images\Home-img\Blog-home-img3.png" alt="" />
+          <img src="Images/Blog-home-img3.png" alt="" />
           <div className='section_five_text_cont'>
             <div className='sub_header'>
               Why WE Started
@@ -159,6 +163,16 @@ function Home() {
             <button className='section_five_button'>Discover our story</button>
           </div>
         </div>
+      </section>
+
+      <section className="home_section_six">
+        <h1>List of Authors</h1>
+          
+          <div>
+          <Authors Authors={Authors}/>
+
+          </div>
+          
       </section>
     </div>
   )
