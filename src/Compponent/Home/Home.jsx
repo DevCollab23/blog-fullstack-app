@@ -174,6 +174,59 @@ const Home =()=> {
           </div>
           
       </section>
+
+      <section className="home_section_seven">
+        <div className="section_seven_cont">
+          <div className="testimonial_cont">
+            <h2>Testimonial</h2>
+            <h1>What peple say about 
+              our blog
+            </h1>
+            <p>
+              Lorem ipsum dolor sit, amet 
+              consectetur adipisicing elit.
+               Quae, velit. Lorem ipsum dolor sit.
+            </p>
+          </div>
+          <hr className="hr" />
+          <div className="actual_testimonial_cont">
+            <div className='actual_testimonial'>
+              Lorem ipsum dolor sit amet 
+              consectetur adipisicing elit.
+               Eius laudantium perferendis
+                reiciendis cupiditate provident
+                 placeat ab eum quibusdam, tempore rem.
+            </div>
+            <div className="testifier_cont">
+              <div className="actual_test_img_cont">
+                <img src="Images/Blog-home-img8.png" alt="" />
+              </div>
+              <div className="testifier_bio">
+
+                <div className='testifier_name'>Jonathan Vallem</div>
+                <div className="testifier_location">New York USA</div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+
+      <section className="home_section_eight">
+        <div className='section_eight_cont'>
+          <h2>Join our team to be part of our story</h2>
+          <p>
+              Lorem ipsum dolor sit amet 
+              consectetur adipisicing elit.
+              Maxime, illo?  
+          </p> 
+          <button>
+            Join Now
+          </button>
+        </div>
+
+      </section>
     </div>
   )
 }

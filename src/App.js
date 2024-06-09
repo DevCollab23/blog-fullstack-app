@@ -6,6 +6,7 @@ import Home from './Compponent/Home/Home';
 import About from './Compponent/About/About';
 import Blog from './Compponent/Blog/Blog';
 import Contact from './Compponent/Contact/Contact';
+import Footer from './Compponent/Footer/Footer';
 
 
 function App() {
@@ -34,7 +35,7 @@ function App() {
           </Route>
         </Switch>
       </div>
-      
+        <Footer/>
     </div>
 
      </Router>

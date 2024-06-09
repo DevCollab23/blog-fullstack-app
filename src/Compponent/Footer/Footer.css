@@ -1,0 +1,112 @@
+.footer{
+    margin: 0rem 0rem 0rem;
+    padding: 2rem 2rem;
+    background-color: #232536;
+}
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    width: 60%;
+    margin: auto;
+}
+.footer_container h2{
+    color: var(--white);
+    font-size: 1rem;
+}
+.footer_menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    font-size: .5rem;
+    color: white;
+}
+.footer_menu .li{
+    list-style: none;
+    cursor: pointer;
+}
+.footer_menu .li .linkk{
+    text-decoration: none;
+    color: var(--white);
+
+}
+.footer_subscribe{
+    background-color: #4C4C4C;
+    padding: 2rem;
+    display: flex;
+    width: 60%;
+    margin: auto;
+    gap: 1rem;
+}
+.footer_subscribe .subscribe{
+    color: var(--white);
+    font-size: 1.5rem;
+    width: 50%;
+}
+.footer_subscribe input{
+    border: 1px solid whitesmoke;
+    height: 6vh;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    outline: none;
+}
+.footer_subscribe input::placeholder{
+    padding: 0rem .5rem;
+}
+.footer_subscribe button{
+    height: 6vh;
+    padding: 0.5rem 1.5rem;
+    background-color:  #FFD050;
+    border: none;
+}
+.footer_socials{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.f_social{
+    color: #4C4C4C;
+    
+}
+@media screen and (max-width:1200px) {
+
+    .footer_subscribe{
+        width: 80%;
+    }
+}
+@media screen and (max-width:800px) {
+
+    .footer_subscribe{
+        width: 100%;
+    }
+    .footer_socials{
+        width: 100%;
+    }
+    .footer_container{
+        width: 100%;
+    }
+}
+@media screen and (max-width:600px) {
+    .footer_subscribe{
+       flex-direction: column;
+       padding: 1rem;
+    }
+    .footer_subscribe .subscribe{
+        color: var(--white);
+        font-size: 1.5rem;
+        width: 100%;
+    }
+    .footer_subscribe input{
+        width: 40%;
+        height: 4vh;
+    }
+    .footer_subscribe button{
+        width: 40%;
+        height: 4vh;
+    }
+    .footer_menu{
+        gap: .5rem;
+    }
+}
